@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<meta charset="utf-8">
+    	<title>ЭКСПЕДИЦИИ ОТиПЛа</title>	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="{{url_for('static', filename='owl.carousel.min.css')}}">
+
+  <link rel="stylesheet" href="{{url_for('static', filename='zerogrid.css')}}">
+	<link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+	
+	<link rel="shortcut icon" href="{{url_for('static', filename='favicon.ico')}}">
+   <link rel="icon" href="{{url_for('static', filename='favicon.ico')}}">
+
+   <link rel="stylesheet" href="{{url_for('static', filename='menu.css')}}">
+   
+   <script src="{{url_for('static', filename='jquery.min.js')}}"></script>
+	<script src="{{url_for('static', filename='script.js')}}"></script>
+	
+</head>
+
+<body class="home-page">
+	<div class="wrap-body">
+		
+		<header class="main-header">
+			<div class="zerogrid">
+				<div class="row">
+					<div class="col-1-3">
+						<a class="site-branding" href="{{url_for('hi_page')}}">
+							<h1 id="site-header" style="margin-left:5px;">ЭКСПЕДИЦИИ ОТиПЛа</h1>	
+						</a><!-- .site-branding -->
+					</div>
+					<div class="col-2-3">
+						<!-- Menu-main -->
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<!--////////////////////////////////////Container-->
+		<section id="container" class="zerogrid">
+			<div class="wrap-container" style="margin-left:20px;margin-right:20px;margin-top:20px;margin-bottom:20px;">
+				
+				<!-----------------content-box-2-------------------->
+				<section class="content-box box-2">
+					<div class="wrap-box"><!--Start Box-->
+						<div class="row wrap-post">
+						    <div class="entry-content">
+						        <div class="excerpt">
+							<center><iframe src="{{url_for('static', filename='map2.html')}}" style="max-width: 100%; max-height: 100%; width: 1000px; height: 600px;" allow="fullscreen"></iframe></center>
+						    <p><center><b><u><a href="https://milenchik.ru/map2.html">На весь экран</a></b></u></center></p>
+						    <center><p style="color: #000000;"><h2>Легенда карты</h2></p>
+						    <p style="color: #000000;"><h3>Руководители экспедиций</h3></p></center>
+						    <center><img src="{{url_for('static', filename='Снимок7.PNG')}}" style="max-width: 60%; max-height: 60%;"></img></center>
+						    <p>Все маркеры на карте кликабельны. Во всплывающих подсказках содержится информация о местах проведения лингвистических экспедиций за всю историю ОТиПЛа.</p>
+						</div>
+						</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</section>
+		
+		<!--////////////////////////////////////Footer-->
+		<footer>
+			<div class="zerogrid">
+				<div class="wrap-footer">
+					<center><div class="row">
+						<div class="bottom-social">
+						<a name="footer"></a>
+						<link rel="stylesheet" href="{{url_for('send_css', path='font-awesome.css')}}">
+						<link rel="stylesheet" href="{{url_for('send_css', path='font-awesome.min.css')}}">
+
+						<a href="https://vk.com/msu_linguistics"><i class="fa fa-vk"></i></a>
+						<a href="https://t.me/otipl"><i class="fa fa-telegram"></i></a>
+					</div>
+					<div class="copyright">
+						© ОТиПЛ МГУ, 2022-2024.
+					</div>
+					<div class="copyright">
+					    Данная страница и её содержимое разработаны Гусевой Миленой, студенткой первого курса магистратуры ОТиПЛ. За недостающую информацию об экспедициях благодарю Анну Алхазову, Дарью Белову и Анастасию Крайнову.
+					</div>
+				</center>
+					</div>
+				</div>
+				<div class="bottom-footer">
+					
+				</div>
+			</div>
+		</footer>
+	</div>
+	
+</body>
+</html>

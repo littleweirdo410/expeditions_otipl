@@ -1,0 +1,1805 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f9899cfe1cf44594b0561d517a771f16 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f9899cfe1cf44594b0561d517a771f16" ></div>
+        
+</body>
+<script>    
+    
+            var map_f9899cfe1cf44594b0561d517a771f16 = L.map(
+                "map_f9899cfe1cf44594b0561d517a771f16",
+                {
+                    center: [69.343985, 88.210393],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ce22c2c998fb4efa982ec6fdac46f7fa = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+            var circle_marker_87d503933de7461dada5dcb16da6ffd0 = L.circleMarker(
+                [39.010273, 70.150932],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_87755aef48fc45d78fedf86569f014e5 = L.popup({"maxWidth": 300});
+
+        
+            var html_f3b432cdbad24e2d9dd3ecd4fcf0f129 = $(`<div id="html_f3b432cdbad24e2d9dd3ecd4fcf0f129" style="width: 100.0%; height: 100.0%;">             <strong>Таджикистан, с. Дебаста</strong>             <i>Экспедиции:</i>                          1969 - Шугнанский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_87755aef48fc45d78fedf86569f014e5.setContent(html_f3b432cdbad24e2d9dd3ecd4fcf0f129);
+        
+
+        circle_marker_87d503933de7461dada5dcb16da6ffd0.bindPopup(popup_87755aef48fc45d78fedf86569f014e5)
+        ;
+
+        
+    
+    
+            var circle_marker_833f6307f68e40e1a4abfa27667cd792 = L.circleMarker(
+                [40.93328, 47.66177],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_612d5c91038245a6a058a1b4cd4b5dd2 = L.popup({"maxWidth": 300});
+
+        
+            var html_7e9f71d08cfc47f1b07cbdcfed788995 = $(`<div id="html_7e9f71d08cfc47f1b07cbdcfed788995" style="width: 100.0%; height: 100.0%;">             <strong>Азербайджан, с. Нидж</strong>             <i>Экспедиции:</i>                          1977, 1982 - Удинский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_612d5c91038245a6a058a1b4cd4b5dd2.setContent(html_7e9f71d08cfc47f1b07cbdcfed788995);
+        
+
+        circle_marker_833f6307f68e40e1a4abfa27667cd792.bindPopup(popup_612d5c91038245a6a058a1b4cd4b5dd2)
+        ;
+
+        
+    
+    
+            var circle_marker_147d97b3268a46c5ab4c0b5e46354208 = L.circleMarker(
+                [41.177635, 48.126253],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_743e94bf2f2b4fa1b046168b9d017173 = L.popup({"maxWidth": 300});
+
+        
+            var html_70aaa1503aa548b39bace5b7a71b9a6d = $(`<div id="html_70aaa1503aa548b39bace5b7a71b9a6d" style="width: 100.0%; height: 100.0%;">             <strong>Азербайджан, с. Хиналуг (Хыналыг)</strong>             <i>Экспедиции:</i>                          1970, 1977, 2007, 2008 - Хиналугский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_743e94bf2f2b4fa1b046168b9d017173.setContent(html_70aaa1503aa548b39bace5b7a71b9a6d);
+        
+
+        circle_marker_147d97b3268a46c5ab4c0b5e46354208.bindPopup(popup_743e94bf2f2b4fa1b046168b9d017173)
+        ;
+
+        
+    
+    
+            var circle_marker_b0ab56a9a24b456b8cf550eca0be4c60 = L.circleMarker(
+                [41.183268, 48.369751],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_a083bd8c874044feb53268b2ea528a72 = L.popup({"maxWidth": 300});
+
+        
+            var html_089593e256794735aaa648ec7dd77fdc = $(`<div id="html_089593e256794735aaa648ec7dd77fdc" style="width: 100.0%; height: 100.0%;">             <strong>Азербайджан, с. Будух (Будуг)</strong>             <i>Экспедиции:</i>                          1977, 1980 - Будухский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_a083bd8c874044feb53268b2ea528a72.setContent(html_089593e256794735aaa648ec7dd77fdc);
+        
+
+        circle_marker_b0ab56a9a24b456b8cf550eca0be4c60.bindPopup(popup_a083bd8c874044feb53268b2ea528a72)
+        ;
+
+        
+    
+    
+            var circle_marker_c3525c1e88ed42ea948f5b013f98c09c = L.circleMarker(
+                [41.2136, 48.2467],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_349fc14485314f068365d21103f84638 = L.popup({"maxWidth": 300});
+
+        
+            var html_5f7e548d60cc43098475b884a694b59f = $(`<div id="html_5f7e548d60cc43098475b884a694b59f" style="width: 100.0%; height: 100.0%;">             <strong>Азербайджан, с. Крыз</strong>             <i>Экспедиции:</i>                          1977, 1980 - Крызский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_349fc14485314f068365d21103f84638.setContent(html_5f7e548d60cc43098475b884a694b59f);
+        
+
+        circle_marker_c3525c1e88ed42ea948f5b013f98c09c.bindPopup(popup_349fc14485314f068365d21103f84638)
+        ;
+
+        
+    
+    
+            var circle_marker_681cabb6b07c43d3added64b72e6d282 = L.circleMarker(
+                [41.363818, 48.522985],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_3cc9b71d5df340e785a43b652c5b86c7 = L.popup({"maxWidth": 300});
+
+        
+            var html_92215da4a55b4e79b5e7c030adf4fdca = $(`<div id="html_92215da4a55b4e79b5e7c030adf4fdca" style="width: 100.0%; height: 100.0%;">             <strong>Азербайджан, г. Куба (Губа)</strong>             <i>Экспедиции:</i>                          1971, 1980 - Хиналугский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_3cc9b71d5df340e785a43b652c5b86c7.setContent(html_92215da4a55b4e79b5e7c030adf4fdca);
+        
+
+        circle_marker_681cabb6b07c43d3added64b72e6d282.bindPopup(popup_3cc9b71d5df340e785a43b652c5b86c7)
+        ;
+
+        
+    
+    
+            var circle_marker_667c3f55121b4a3d95e5176ab8492007 = L.circleMarker(
+                [41.495606, 47.532862],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_5febc74d2b2743bba338538f0b3d114e = L.popup({"maxWidth": 300});
+
+        
+            var html_39ef7d1fa06a4917ad82b1843633162d = $(`<div id="html_39ef7d1fa06a4917ad82b1843633162d" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Хлют</strong>             <i>Экспедиции:</i>                          1973, 1979 - Лезгинский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_5febc74d2b2743bba338538f0b3d114e.setContent(html_39ef7d1fa06a4917ad82b1843633162d);
+        
+
+        circle_marker_667c3f55121b4a3d95e5176ab8492007.bindPopup(popup_5febc74d2b2743bba338538f0b3d114e)
+        ;
+
+        
+    
+    
+            var circle_marker_6a2e240bdae04a0db982f18d68725eea = L.circleMarker(
+                [41.609855, 47.30734],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_804d5c3db4fb47df95572c524f7a01bb = L.popup({"maxWidth": 300});
+
+        
+            var html_2cdc96c514494cf8bebea2c1d96616a5 = $(`<div id="html_2cdc96c514494cf8bebea2c1d96616a5" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Лучек</strong>             <i>Экспедиции:</i>                          1973, 1974, 1975, 1979, 1983 - Рутульский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_804d5c3db4fb47df95572c524f7a01bb.setContent(html_2cdc96c514494cf8bebea2c1d96616a5);
+        
+
+        circle_marker_6a2e240bdae04a0db982f18d68725eea.bindPopup(popup_804d5c3db4fb47df95572c524f7a01bb)
+        ;
+
+        
+    
+    
+            var circle_marker_99a1a9192d034cccb4273365640a7ace = L.circleMarker(
+                [41.625298, 47.178459],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_20bdb8354e124da4873bdecb0ac2981f = L.popup({"maxWidth": 300});
+
+        
+            var html_26568243e13c4c96818661b6add48992 = $(`<div id="html_26568243e13c4c96818661b6add48992" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Гельмец</strong>             <i>Экспедиции:</i>                          1973, 1974, 1979, 1983 - Цахурский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_20bdb8354e124da4873bdecb0ac2981f.setContent(html_26568243e13c4c96818661b6add48992);
+        
+
+        circle_marker_99a1a9192d034cccb4273365640a7ace.bindPopup(popup_20bdb8354e124da4873bdecb0ac2981f)
+        ;
+
+        
+    
+    
+            var circle_marker_b135caa9206b4fa290d48ca3188966a6 = L.circleMarker(
+                [41.637746, 47.167221],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_8ca6ef633d434f8aaeac23cd5c824d10 = L.popup({"maxWidth": 300});
+
+        
+            var html_13bb60a766804c81939ef91be5943dd0 = $(`<div id="html_13bb60a766804c81939ef91be5943dd0" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Микик</strong>             <i>Экспедиции:</i>                          1973, 1974, 1979, 1983 – Цахурский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_8ca6ef633d434f8aaeac23cd5c824d10.setContent(html_13bb60a766804c81939ef91be5943dd0);
+        
+
+        circle_marker_b135caa9206b4fa290d48ca3188966a6.bindPopup(popup_8ca6ef633d434f8aaeac23cd5c824d10)
+        ;
+
+        
+    
+    
+            var circle_marker_09a7566b992a45a691e77101b3845432 = L.circleMarker(
+                [41.651277, 47.135986],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_b106c8a0579a498d96f4f26a4b991f7f = L.popup({"maxWidth": 300});
+
+        
+            var html_51b40e28c3ad4ef0901ba93514a5f09f = $(`<div id="html_51b40e28c3ad4ef0901ba93514a5f09f" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Цахур</strong>             <i>Экспедиции:</i>                          1973, 1974, 1979, 1983 – Цахурский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_b106c8a0579a498d96f4f26a4b991f7f.setContent(html_51b40e28c3ad4ef0901ba93514a5f09f);
+        
+
+        circle_marker_09a7566b992a45a691e77101b3845432.bindPopup(popup_b106c8a0579a498d96f4f26a4b991f7f)
+        ;
+
+        
+    
+    
+            var circle_marker_8dc79ea77888473c8dd6e5864516fdff = L.circleMarker(
+                [41.664865, 47.089912],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_5768186a60414edda59157f084d36e65 = L.popup({"maxWidth": 300});
+
+        
+            var html_696dc46342624a33ace69596e2dacccc = $(`<div id="html_696dc46342624a33ace69596e2dacccc" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Мишлеш</strong>             <i>Экспедиции:</i>                          1995, 1996 - Цахурский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_5768186a60414edda59157f084d36e65.setContent(html_696dc46342624a33ace69596e2dacccc);
+        
+
+        circle_marker_8dc79ea77888473c8dd6e5864516fdff.bindPopup(popup_5768186a60414edda59157f084d36e65)
+        ;
+
+        
+    
+    
+            var circle_marker_2b71be9c9d064812bfa08cc0fbe502e3 = L.circleMarker(
+                [41.763842, 47.504143],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_38e05787a80443dba7bfb4c67c6ff9b8 = L.popup({"maxWidth": 300});
+
+        
+            var html_77c42f662ea74dc7acd83078714abbf6 = $(`<div id="html_77c42f662ea74dc7acd83078714abbf6" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Рича</strong>             <i>Экспедиции:</i>                          1973, 1978, 1983 – Агульский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_38e05787a80443dba7bfb4c67c6ff9b8.setContent(html_77c42f662ea74dc7acd83078714abbf6);
+        
+
+        circle_marker_2b71be9c9d064812bfa08cc0fbe502e3.bindPopup(popup_38e05787a80443dba7bfb4c67c6ff9b8)
+        ;
+
+        
+    
+    
+            var circle_marker_733edf73cfaa4a2ab004d1e0bd370f25 = L.circleMarker(
+                [41.781051, 47.592483],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_d2cd2eff50484b0388b08c7e171c1b98 = L.popup({"maxWidth": 300});
+
+        
+            var html_3fd011ac27144ed69a2c5e5d48e6c414 = $(`<div id="html_3fd011ac27144ed69a2c5e5d48e6c414" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Тпиг</strong>             <i>Экспедиции:</i>                          1983 – Агульский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_d2cd2eff50484b0388b08c7e171c1b98.setContent(html_3fd011ac27144ed69a2c5e5d48e6c414);
+        
+
+        circle_marker_733edf73cfaa4a2ab004d1e0bd370f25.bindPopup(popup_d2cd2eff50484b0388b08c7e171c1b98)
+        ;
+
+        
+    
+    
+            var circle_marker_d3afb60c34f146d6b4e7283daa498e58 = L.circleMarker(
+                [41.79851, 47.876414],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_44ae7fc9e63145ac877edc16f9defd8d = L.popup({"maxWidth": 300});
+
+        
+            var html_4b01a8f9197e44cf8f59d08a741b11f7 = $(`<div id="html_4b01a8f9197e44cf8f59d08a741b11f7" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Кондик</strong>             <i>Экспедиции:</i>                          1973, 1974, 1978, 1983 – Табасаранский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_44ae7fc9e63145ac877edc16f9defd8d.setContent(html_4b01a8f9197e44cf8f59d08a741b11f7);
+        
+
+        circle_marker_d3afb60c34f146d6b4e7283daa498e58.bindPopup(popup_44ae7fc9e63145ac877edc16f9defd8d)
+        ;
+
+        
+    
+    
+            var circle_marker_b5c76c6ea0ba47609a1f5913e24061f2 = L.circleMarker(
+                [41.806361, 47.538764],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_41750229315e49768d1bc71213b6f3fb = L.popup({"maxWidth": 300});
+
+        
+            var html_e85e64f062df4fc08ad3e9346eec0532 = $(`<div id="html_e85e64f062df4fc08ad3e9346eec0532" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Буркихан</strong>             <i>Экспедиции:</i>                          1978, 1983 – Агульский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_41750229315e49768d1bc71213b6f3fb.setContent(html_e85e64f062df4fc08ad3e9346eec0532);
+        
+
+        circle_marker_b5c76c6ea0ba47609a1f5913e24061f2.bindPopup(popup_41750229315e49768d1bc71213b6f3fb)
+        ;
+
+        
+    
+    
+            var circle_marker_54b41b39477f47dc8297ae07eafe0d10 = L.circleMarker(
+                [41.836961, 47.431748],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_185478e233384a5b8af653422830bedf = L.popup({"maxWidth": 300});
+
+        
+            var html_915b443188d04e9d8477302d14eeab58 = $(`<div id="html_915b443188d04e9d8477302d14eeab58" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Чираг</strong>             <i>Экспедиции:</i>                          1973, 1974, 1978, 1983 – Даргинский язык (чирагский диалект), рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_185478e233384a5b8af653422830bedf.setContent(html_915b443188d04e9d8477302d14eeab58);
+        
+
+        circle_marker_54b41b39477f47dc8297ae07eafe0d10.bindPopup(popup_185478e233384a5b8af653422830bedf)
+        ;
+
+        
+    
+    
+            var circle_marker_1acbe6e6a60f453c85299d501d8e7fd0 = L.circleMarker(
+                [60.185781, 165.461483],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_95434d9d35984a21aeeaf2161dfc6dec = L.popup({"maxWidth": 300});
+
+        
+            var html_e9d4fa718c6c485f9e767fd7867ebf1b = $(`<div id="html_e9d4fa718c6c485f9e767fd7867ebf1b" style="width: 100.0%; height: 100.0%;">             <strong>Камчатский край, с. Вывенка</strong>             <i>Экспедиции:</i>                          1971, 1972, 1978 - Алюторский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_95434d9d35984a21aeeaf2161dfc6dec.setContent(html_e9d4fa718c6c485f9e767fd7867ebf1b);
+        
+
+        circle_marker_1acbe6e6a60f453c85299d501d8e7fd0.bindPopup(popup_95434d9d35984a21aeeaf2161dfc6dec)
+        ;
+
+        
+    
+    
+            var circle_marker_907abdfe78eb400aa26354f8f7872418 = L.circleMarker(
+                [42.536375, 46.051522],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_dcf9f7ce66f343729d6ec4ce7e63ad1b = L.popup({"maxWidth": 300});
+
+        
+            var html_d36480250d654bb78cf9bd4ffeced30f = $(`<div id="html_d36480250d654bb78cf9bd4ffeced30f" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Нижние Гаквари</strong>             <i>Экспедиции:</i>                          1975, 1979, 1981, 1982 – Чамалинский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_dcf9f7ce66f343729d6ec4ce7e63ad1b.setContent(html_d36480250d654bb78cf9bd4ffeced30f);
+        
+
+        circle_marker_907abdfe78eb400aa26354f8f7872418.bindPopup(popup_dcf9f7ce66f343729d6ec4ce7e63ad1b)
+        ;
+
+        
+    
+    
+            var circle_marker_606096ee4cf24fce942aa3abce6a6e6c = L.circleMarker(
+                [42.41106, 46.045045],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_ef1a73be36f145e0a45f7e5fdeba5e39 = L.popup({"maxWidth": 300});
+
+        
+            var html_8b97542dd9bf461d99f2e16ad8f894f6 = $(`<div id="html_8b97542dd9bf461d99f2e16ad8f894f6" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Инхоквари</strong>             <i>Экспедиции:</i>                          1975, 1979, 1981, 1982 – Хваршинский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_ef1a73be36f145e0a45f7e5fdeba5e39.setContent(html_8b97542dd9bf461d99f2e16ad8f894f6);
+        
+
+        circle_marker_606096ee4cf24fce942aa3abce6a6e6c.bindPopup(popup_ef1a73be36f145e0a45f7e5fdeba5e39)
+        ;
+
+        
+    
+    
+            var circle_marker_7cf98f7211a24362ae9775adc509e5c2 = L.circleMarker(
+                [42.455139, 46.134356],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_71c51d1c1a194fd59cc7a3993df1dc40 = L.popup({"maxWidth": 300});
+
+        
+            var html_b2bf274241f146938c21861b2ab81a2e = $(`<div id="html_b2bf274241f146938c21861b2ab81a2e" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Тинди</strong>             <i>Экспедиции:</i>                          1975, 1979, 1981, 1982 – Тиндинский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_71c51d1c1a194fd59cc7a3993df1dc40.setContent(html_b2bf274241f146938c21861b2ab81a2e);
+        
+
+        circle_marker_7cf98f7211a24362ae9775adc509e5c2.bindPopup(popup_71c51d1c1a194fd59cc7a3993df1dc40)
+        ;
+
+        
+    
+    
+            var circle_marker_cb2ef555e5e3419aab2e06eeae54758d = L.circleMarker(
+                [41.89589, 47.641118],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_2aedf6cdc13f46b9b8e4510990b93810 = L.popup({"maxWidth": 300});
+
+        
+            var html_1513653170104a9d969f56e4e836b629 = $(`<div id="html_1513653170104a9d969f56e4e836b629" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Бурщаг (Буршаг)</strong>             <i>Экспедиции:</i>                          1974, 1978, 1983 - Агульский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_2aedf6cdc13f46b9b8e4510990b93810.setContent(html_1513653170104a9d969f56e4e836b629);
+        
+
+        circle_marker_cb2ef555e5e3419aab2e06eeae54758d.bindPopup(popup_2aedf6cdc13f46b9b8e4510990b93810)
+        ;
+
+        
+    
+    
+            var circle_marker_cb8248ffd0924506b01c4554822a46de = L.circleMarker(
+                [41.992652, 47.273752],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_8e7ef37088c14815a164ff78ae6d9b62 = L.popup({"maxWidth": 300});
+
+        
+            var html_b26a2c988c774ad2b85af40afbcb150e = $(`<div id="html_b26a2c988c774ad2b85af40afbcb150e" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Хосрех</strong>             <i>Экспедиции:</i>                          1974, 1978, 1983 - Лакский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_8e7ef37088c14815a164ff78ae6d9b62.setContent(html_b26a2c988c774ad2b85af40afbcb150e);
+        
+
+        circle_marker_cb8248ffd0924506b01c4554822a46de.bindPopup(popup_8e7ef37088c14815a164ff78ae6d9b62)
+        ;
+
+        
+    
+    
+            var circle_marker_666f281d30604112b38092c5a21303c2 = L.circleMarker(
+                [42.020591, 47.968931],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_6fa1df4ac9a942918597ecd2d46209a5 = L.popup({"maxWidth": 300});
+
+        
+            var html_9014fa9751134d85aba2e0c36f72dead = $(`<div id="html_9014fa9751134d85aba2e0c36f72dead" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Дюбек</strong>             <i>Экспедиции:</i>                          1974, 1979, 1983 - Табасаранский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_6fa1df4ac9a942918597ecd2d46209a5.setContent(html_9014fa9751134d85aba2e0c36f72dead);
+        
+
+        circle_marker_666f281d30604112b38092c5a21303c2.bindPopup(popup_6fa1df4ac9a942918597ecd2d46209a5)
+        ;
+
+        
+    
+    
+            var circle_marker_23624496087140b7b5c9a62440387794 = L.circleMarker(
+                [42.065026, 46.869681],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_4ace482a90734d72a51f046a4e6f0d75 = L.popup({"maxWidth": 300});
+
+        
+            var html_98878e33d51b41608bd3b63ebb543ede = $(`<div id="html_98878e33d51b41608bd3b63ebb543ede" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, c. Арчи</strong>             <i>Экспедиции:</i>                          1968, 1972, 2006, 2007 – Арчинский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_4ace482a90734d72a51f046a4e6f0d75.setContent(html_98878e33d51b41608bd3b63ebb543ede);
+        
+
+        circle_marker_23624496087140b7b5c9a62440387794.bindPopup(popup_4ace482a90734d72a51f046a4e6f0d75)
+        ;
+
+        
+    
+    
+            var circle_marker_b6d6f2a68db94338aa6e598a9ece21b8 = L.circleMarker(
+                [55.118076, 50.791222],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_65ae0a740be84c33b82d2353e2b80590 = L.popup({"maxWidth": 300});
+
+        
+            var html_182146c892c84238b8025120dc2d7f04 = $(`<div id="html_182146c892c84238b8025120dc2d7f04" style="width: 100.0%; height: 100.0%;">             <strong>Татарстан, с. Татарский Ялтан (Татарский Елтан)</strong>             <i>Экспедиции:</i>                          1999, 2000 - Татарский язык, рук-ли А.Е. Кибрик, С.Г. Татевосов              </div>`)[0];
+            popup_65ae0a740be84c33b82d2353e2b80590.setContent(html_182146c892c84238b8025120dc2d7f04);
+        
+
+        circle_marker_b6d6f2a68db94338aa6e598a9ece21b8.bindPopup(popup_65ae0a740be84c33b82d2353e2b80590)
+        ;
+
+        
+    
+    
+            var circle_marker_3501d444e71c45a187f22aff748160ba = L.circleMarker(
+                [55.546185, 47.935128],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_cb20baca8f8e47caa4f4526708967448 = L.popup({"maxWidth": 300});
+
+        
+            var html_fe458690d6b94abf8096ca0d7bb59dc5 = $(`<div id="html_fe458690d6b94abf8096ca0d7bb59dc5" style="width: 100.0%; height: 100.0%;">             <strong>Чувашия, д. Шимкуссы (Шимкусы)</strong>             <i>Экспедиции:</i>                          2001 - Чувашский язык, рук-ли А.Е. Кибрик, С.Г. Татевосов              </div>`)[0];
+            popup_cb20baca8f8e47caa4f4526708967448.setContent(html_fe458690d6b94abf8096ca0d7bb59dc5);
+        
+
+        circle_marker_3501d444e71c45a187f22aff748160ba.bindPopup(popup_cb20baca8f8e47caa4f4526708967448)
+        ;
+
+        
+    
+    
+            var circle_marker_2b9357087cee4f22a4abee0e9ff4c9f4 = L.circleMarker(
+                [42.192038, 46.320181],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_103fbed1314b48bba8be90915b4d518a = L.popup({"maxWidth": 300});
+
+        
+            var html_c5baf28a392c48d49966941798b2ea86 = $(`<div id="html_c5baf28a392c48d49966941798b2ea86" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Чадаколоб</strong>             <i>Экспедиции:</i>                          1976, 1980, 1983 - Аварский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_103fbed1314b48bba8be90915b4d518a.setContent(html_c5baf28a392c48d49966941798b2ea86);
+        
+
+        circle_marker_2b9357087cee4f22a4abee0e9ff4c9f4.bindPopup(popup_103fbed1314b48bba8be90915b4d518a)
+        ;
+
+        
+    
+    
+            var circle_marker_271914a477084301b94c48ca2cde3978 = L.circleMarker(
+                [42.176832, 45.983924],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_c974c51eaa4842abae2a349b53d21ce2 = L.popup({"maxWidth": 300});
+
+        
+            var html_ef419fdd24ec4b62bb3fd564a73f5bba = $(`<div id="html_ef419fdd24ec4b62bb3fd564a73f5bba" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Гинух (Генух)</strong>             <i>Экспедиции:</i>                          1976, 1980 - Гинухский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_c974c51eaa4842abae2a349b53d21ce2.setContent(html_ef419fdd24ec4b62bb3fd564a73f5bba);
+        
+
+        circle_marker_271914a477084301b94c48ca2cde3978.bindPopup(popup_c974c51eaa4842abae2a349b53d21ce2)
+        ;
+
+        
+    
+    
+            var circle_marker_3fe3abf9e2704431979ff9bb8eab3c2c = L.circleMarker(
+                [42.128939, 46.143501],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_83ce63b863e84f96a1f0bd60d863f7a0 = L.popup({"maxWidth": 300});
+
+        
+            var html_63292fb7927b4c4797a6c87c6eaa447b = $(`<div id="html_63292fb7927b4c4797a6c87c6eaa447b" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Хошар-Хота (Хашархота)</strong>             <i>Экспедиции:</i>                          1976, 1980 - Бежтинский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_83ce63b863e84f96a1f0bd60d863f7a0.setContent(html_63292fb7927b4c4797a6c87c6eaa447b);
+        
+
+        circle_marker_3fe3abf9e2704431979ff9bb8eab3c2c.bindPopup(popup_83ce63b863e84f96a1f0bd60d863f7a0)
+        ;
+
+        
+    
+    
+            var circle_marker_1734eeecef7d47dd9465575a6c98d77c = L.circleMarker(
+                [42.123729, 46.237473],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_043b34e1553243479daefb64bad4c920 = L.popup({"maxWidth": 300});
+
+        
+            var html_0f1071bdccb74c42bacc73270ecb5ce3 = $(`<div id="html_0f1071bdccb74c42bacc73270ecb5ce3" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Тлядал</strong>             <i>Экспедиции:</i>                          Бежтинский язык
+ 1980 – рук-ль А.Е. Кибрик
+ 2003 – рук-ли А.Е. Кибрик, К.И. Казенин при участии Я. Г. Тестельца, Е. Ю. Калининой
+              </div>`)[0];
+            popup_043b34e1553243479daefb64bad4c920.setContent(html_0f1071bdccb74c42bacc73270ecb5ce3);
+        
+
+        circle_marker_1734eeecef7d47dd9465575a6c98d77c.bindPopup(popup_043b34e1553243479daefb64bad4c920)
+        ;
+
+        
+    
+    
+            var circle_marker_7e163e468dc34709930fa7f577f3e94c = L.circleMarker(
+                [42.550411, 46.349341],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_6604241af0394161946569a098065fe6 = L.popup({"maxWidth": 300});
+
+        
+            var html_182378f13b4f469daa78eedcd80d37e0 = $(`<div id="html_182378f13b4f469daa78eedcd80d37e0" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Тадмагитли (Тад-Магитль)</strong>             <i>Экспедиции:</i>                          1979, 1981, 1982 – Ахвахский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_6604241af0394161946569a098065fe6.setContent(html_182378f13b4f469daa78eedcd80d37e0);
+        
+
+        circle_marker_7e163e468dc34709930fa7f577f3e94c.bindPopup(popup_6604241af0394161946569a098065fe6)
+        ;
+
+        
+    
+    
+            var circle_marker_bcc863a9666642e68ca1d55dabd49b59 = L.circleMarker(
+                [42.561635, 46.1739],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_7ee8e3dd0f014e69bc9732b7ee29b1ab = L.popup({"maxWidth": 300});
+
+        
+            var html_b38d097e240e4b27826edb0732c9c769 = $(`<div id="html_b38d097e240e4b27826edb0732c9c769" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Кванада</strong>             <i>Экспедиции:</i>                          1994, 1997, 1998 - Багвалинский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_7ee8e3dd0f014e69bc9732b7ee29b1ab.setContent(html_b38d097e240e4b27826edb0732c9c769);
+        
+
+        circle_marker_bcc863a9666642e68ca1d55dabd49b59.bindPopup(popup_7ee8e3dd0f014e69bc9732b7ee29b1ab)
+        ;
+
+        
+    
+    
+            var circle_marker_b92d5acca2da430292ab911e7d4ca8c1 = L.circleMarker(
+                [42.192987, 45.95843],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_1ef7f2c5fc634350add839e8f9c70fe8 = L.popup({"maxWidth": 300});
+
+        
+            var html_809e2356c1f9420eb05b9bec5a64c866 = $(`<div id="html_809e2356c1f9420eb05b9bec5a64c866" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Кидеро</strong>             <i>Экспедиции:</i>                          1976, 1980 - Цезский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_1ef7f2c5fc634350add839e8f9c70fe8.setContent(html_809e2356c1f9420eb05b9bec5a64c866);
+        
+
+        circle_marker_b92d5acca2da430292ab911e7d4ca8c1.bindPopup(popup_1ef7f2c5fc634350add839e8f9c70fe8)
+        ;
+
+        
+    
+    
+            var circle_marker_3a63d041a502407ba77bca4801e5ed79 = L.circleMarker(
+                [43.229077, 40.588067],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_f93b177e87e748b7ad334a6f428b0cb3 = L.popup({"maxWidth": 300});
+
+        
+            var html_42a30f7a3e8742779e0c800736c3f302 = $(`<div id="html_42a30f7a3e8742779e0c800736c3f302" style="width: 100.0%; height: 100.0%;">             <strong>Абхазия, с. Хуап</strong>             <i>Экспедиции:</i>                          1987 - Абхазский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_f93b177e87e748b7ad334a6f428b0cb3.setContent(html_42a30f7a3e8742779e0c800736c3f302);
+        
+
+        circle_marker_3a63d041a502407ba77bca4801e5ed79.bindPopup(popup_f93b177e87e748b7ad334a6f428b0cb3)
+        ;
+
+        
+    
+    
+            var circle_marker_f5d27e62900c492ba92d27ab201511eb = L.circleMarker(
+                [52.569856, 96.034979],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_dc14fff6808848d7bb630c7e1d5851fd = L.popup({"maxWidth": 300});
+
+        
+            var html_1d46ef37e22b4fbba2ee9d2335eae002 = $(`<div id="html_1d46ef37e22b4fbba2ee9d2335eae002" style="width: 100.0%; height: 100.0%;">             <strong>Тыва, с. Ий</strong>             <i>Экспедиции:</i>                          1986 - Тувинский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_dc14fff6808848d7bb630c7e1d5851fd.setContent(html_1d46ef37e22b4fbba2ee9d2335eae002);
+        
+
+        circle_marker_f5d27e62900c492ba92d27ab201511eb.bindPopup(popup_dc14fff6808848d7bb630c7e1d5851fd)
+        ;
+
+        
+    
+    
+            var circle_marker_3b9f84ffc0604eaca1ff12d2275d109a = L.circleMarker(
+                [43.049446, 42.82357],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_7499d6fb9877477ea2b676db0d67ffca = L.popup({"maxWidth": 300});
+
+        
+            var html_e9ad38613a1845a2b08a00731681bf32 = $(`<div id="html_e9ad38613a1845a2b08a00731681bf32" style="width: 100.0%; height: 100.0%;">             <strong>Грузия, с. Мулахи</strong>             <i>Экспедиции:</i>                          1989 - Сванский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_7499d6fb9877477ea2b676db0d67ffca.setContent(html_e9ad38613a1845a2b08a00731681bf32);
+        
+
+        circle_marker_3b9f84ffc0604eaca1ff12d2275d109a.bindPopup(popup_7499d6fb9877477ea2b676db0d67ffca)
+        ;
+
+        
+    
+    
+            var circle_marker_b03141c771ae4a99b34549e421a1d6ac = L.circleMarker(
+                [41.910768, 45.915077],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_9ed93d6ac5d5421f9bb8f5c2bef1862d = L.popup({"maxWidth": 300});
+
+        
+            var html_9723241b7e0548708efb1982a5e888db = $(`<div id="html_9723241b7e0548708efb1982a5e888db" style="width: 100.0%; height: 100.0%;">             <strong>Грузия,  с. Чантлисхури (Чантлискуре)</strong>             <i>Экспедиции:</i>                          1982 - Бежтинский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_9ed93d6ac5d5421f9bb8f5c2bef1862d.setContent(html_9723241b7e0548708efb1982a5e888db);
+        
+
+        circle_marker_b03141c771ae4a99b34549e421a1d6ac.bindPopup(popup_9ed93d6ac5d5421f9bb8f5c2bef1862d)
+        ;
+
+        
+    
+    
+            var circle_marker_ad5c7084f3ad46d39ab5f77844f812b3 = L.circleMarker(
+                [41.996934, 47.583042],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_5ff5308d78794d7183b5bfb091136dfb = L.popup({"maxWidth": 300});
+
+        
+            var html_6329f85705934e91adbc905ae3b927c1 = $(`<div id="html_6329f85705934e91adbc905ae3b927c1" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Ицари</strong>             <i>Экспедиции:</i>                          1991 - Даргинский язык (с диалектами), рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_5ff5308d78794d7183b5bfb091136dfb.setContent(html_6329f85705934e91adbc905ae3b927c1);
+        
+
+        circle_marker_ad5c7084f3ad46d39ab5f77844f812b3.bindPopup(popup_5ff5308d78794d7183b5bfb091136dfb)
+        ;
+
+        
+    
+    
+            var circle_marker_4d8d346ef33941be87bb13c2c8bc23a7 = L.circleMarker(
+                [42.106413, 47.126294],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_9cfd2bc79fb440d988364e7dc3874a9c = L.popup({"maxWidth": 300});
+
+        
+            var html_a70a3faba2154d159fea436403b65da3 = $(`<div id="html_a70a3faba2154d159fea436403b65da3" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, c. Хурхи</strong>             <i>Экспедиции:</i>                          1967 - Лакский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_9cfd2bc79fb440d988364e7dc3874a9c.setContent(html_a70a3faba2154d159fea436403b65da3);
+        
+
+        circle_marker_4d8d346ef33941be87bb13c2c8bc23a7.bindPopup(popup_9cfd2bc79fb440d988364e7dc3874a9c)
+        ;
+
+        
+    
+    
+            var circle_marker_7673df9562364fa2a70b330c1728f1d1 = L.circleMarker(
+                [42.142124, 46.254254],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_01411f71d01045dd8a1a31e330ac56ba = L.popup({"maxWidth": 300});
+
+        
+            var html_314023836aff40f0ad5d135c187f7276 = $(`<div id="html_314023836aff40f0ad5d135c187f7276" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Гунзиб</strong>             <i>Экспедиции:</i>                          1980 - Гунзибский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_01411f71d01045dd8a1a31e330ac56ba.setContent(html_314023836aff40f0ad5d135c187f7276);
+        
+
+        circle_marker_7673df9562364fa2a70b330c1728f1d1.bindPopup(popup_01411f71d01045dd8a1a31e330ac56ba)
+        ;
+
+        
+    
+    
+            var circle_marker_4a22725a8e984a2fb244587fb471b3fc = L.circleMarker(
+                [42.252999, 47.045194],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_071fbc2699a14556908dc930df9a1af1 = L.popup({"maxWidth": 300});
+
+        
+            var html_514de1ebdf9f458eaec46a7bc0440c18 = $(`<div id="html_514de1ebdf9f458eaec46a7bc0440c18" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Мегеб</strong>             <i>Экспедиции:</i>                          1990 - Даргинский язык (с диалектами), рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_071fbc2699a14556908dc930df9a1af1.setContent(html_514de1ebdf9f458eaec46a7bc0440c18);
+        
+
+        circle_marker_4a22725a8e984a2fb244587fb471b3fc.bindPopup(popup_071fbc2699a14556908dc930df9a1af1)
+        ;
+
+        
+    
+    
+            var circle_marker_e7bcced955764beca62f1ce024d13c3f = L.circleMarker(
+                [42.516083, 43.681964],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_f69e083c20184363909bf2fe23f1e4bb = L.popup({"maxWidth": 300});
+
+        
+            var html_1e6526481cb14a5d9d17aafa0e2e4ed1 = $(`<div id="html_1e6526481cb14a5d9d17aafa0e2e4ed1" style="width: 100.0%; height: 100.0%;">             <strong>Абхазия, с. Чини</strong>             <i>Экспедиции:</i>                          1988 - Сванский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_f69e083c20184363909bf2fe23f1e4bb.setContent(html_1e6526481cb14a5d9d17aafa0e2e4ed1);
+        
+
+        circle_marker_e7bcced955764beca62f1ce024d13c3f.bindPopup(popup_f69e083c20184363909bf2fe23f1e4bb)
+        ;
+
+        
+    
+    
+            var circle_marker_ab0770d6bd834d57b87639d92443e143 = L.circleMarker(
+                [42.280969, 46.991915],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_a90cd1dbcce546e7b51bbf679e432dd5 = L.popup({"maxWidth": 300});
+
+        
+            var html_c279c72546344683b10da02e8a5e9c2e = $(`<div id="html_c279c72546344683b10da02e8a5e9c2e" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Согратль</strong>             <i>Экспедиции:</i>                          1992 - Аварский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_a90cd1dbcce546e7b51bbf679e432dd5.setContent(html_c279c72546344683b10da02e8a5e9c2e);
+        
+
+        circle_marker_ab0770d6bd834d57b87639d92443e143.bindPopup(popup_a90cd1dbcce546e7b51bbf679e432dd5)
+        ;
+
+        
+    
+    
+            var circle_marker_772a05de7b3640a88f3daeb0131e12bf = L.circleMarker(
+                [42.582158, 46.097435],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_59ee14f7e9f94994a0aa6c6e217ebb2f = L.popup({"maxWidth": 300});
+
+        
+            var html_ded4ddf8db81413f86bf11f52d47593c = $(`<div id="html_ded4ddf8db81413f86bf11f52d47593c" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Гигатли (Гигатль)</strong>             <i>Экспедиции:</i>                          1982 - Чамалинский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_59ee14f7e9f94994a0aa6c6e217ebb2f.setContent(html_ded4ddf8db81413f86bf11f52d47593c);
+        
+
+        circle_marker_772a05de7b3640a88f3daeb0131e12bf.bindPopup(popup_59ee14f7e9f94994a0aa6c6e217ebb2f)
+        ;
+
+        
+    
+    
+            var circle_marker_a8fb19b6723a4f0ea07916afb3618c01 = L.circleMarker(
+                [42.628737, 46.116794],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_67e2ad3be7124671878928e811581ff5 = L.popup({"maxWidth": 300});
+
+        
+            var html_53dfcead0bf94e0e8f02fe0e78ec80b2 = $(`<div id="html_53dfcead0bf94e0e8f02fe0e78ec80b2" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Годобери</strong>             <i>Экспедиции:</i>                          1993 - Годоберинский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_67e2ad3be7124671878928e811581ff5.setContent(html_53dfcead0bf94e0e8f02fe0e78ec80b2);
+        
+
+        circle_marker_a8fb19b6723a4f0ea07916afb3618c01.bindPopup(popup_67e2ad3be7124671878928e811581ff5)
+        ;
+
+        
+    
+    
+            var circle_marker_95aee39790d049f0b8dda851af1ae790 = L.circleMarker(
+                [42.784898, 46.262707],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_a5c57aa76f48432d8af2ec396d808899 = L.popup({"maxWidth": 300});
+
+        
+            var html_dcf268d74dd54227941eab0f5ca925f6 = $(`<div id="html_dcf268d74dd54227941eab0f5ca925f6" style="width: 100.0%; height: 100.0%;">             <strong>Дагестан, с. Анди</strong>             <i>Экспедиции:</i>                          1981 - Андийский язык, рук-ль А.Е. Кибрик             </div>`)[0];
+            popup_a5c57aa76f48432d8af2ec396d808899.setContent(html_dcf268d74dd54227941eab0f5ca925f6);
+        
+
+        circle_marker_95aee39790d049f0b8dda851af1ae790.bindPopup(popup_a5c57aa76f48432d8af2ec396d808899)
+        ;
+
+        
+    
+    
+            var circle_marker_2a94337656ca4b0e83ff88f9051ff764 = L.circleMarker(
+                [58.140801, 52.674253],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_cf11042aee4340e381a37c618a9f55ee = L.popup({"maxWidth": 300});
+
+        
+            var html_aeb088e451334c828411f026dc6f71f3 = $(`<div id="html_aeb088e451334c828411f026dc6f71f3" style="width: 100.0%; height: 100.0%;">             <strong>Удмуртия</strong>             <i>Экспедиции:</i>                          2003, 2005 - Бесермянский язык, рук-ли А. И. Кузнецова, Е. Ю. Калинина, С. Ю. Толдова             </div>`)[0];
+            popup_cf11042aee4340e381a37c618a9f55ee.setContent(html_aeb088e451334c828411f026dc6f71f3);
+        
+
+        circle_marker_2a94337656ca4b0e83ff88f9051ff764.bindPopup(popup_cf11042aee4340e381a37c618a9f55ee)
+        ;
+
+        
+    
+    
+            var circle_marker_8c6788f04fee45b0bc5810f6b34a1e63 = L.circleMarker(
+                [65.403127, 64.70927],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_a03e4ed6ac3f480dad1a81ce3021f9f6 = L.popup({"maxWidth": 300});
+
+        
+            var html_3be9f8bb08194ae88969c3d32c8f5783 = $(`<div id="html_3be9f8bb08194ae88969c3d32c8f5783" style="width: 100.0%; height: 100.0%;">             <strong>с. Мужи Шурышкарского района Ямало-Ненецкого АО</strong>             <i>Экспедиции:</i>                          2008, 2013 - Коми-зырянский язык, рук-ли А. И. Кузнецова, С. Ю. Толдова             </div>`)[0];
+            popup_a03e4ed6ac3f480dad1a81ce3021f9f6.setContent(html_3be9f8bb08194ae88969c3d32c8f5783);
+        
+
+        circle_marker_8c6788f04fee45b0bc5810f6b34a1e63.bindPopup(popup_a03e4ed6ac3f480dad1a81ce3021f9f6)
+        ;
+
+        
+    
+    
+            var circle_marker_5b591f6967d84d3a9601d18281bd9cc4 = L.circleMarker(
+                [66.529866, 66.614507],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_e4e35b98d08443c280ac163f8506a2ae = L.popup({"maxWidth": 300});
+
+        
+            var html_4cfe2b7fd860498998f708e27f2e11d5 = $(`<div id="html_4cfe2b7fd860498998f708e27f2e11d5" style="width: 100.0%; height: 100.0%;">             <strong>г. Салехард Ямало-Ненецкого АО</strong>             <i>Экспедиции:</i>                          2013 - Коми-зырянский язык, рук-ли А. И. Кузнецова, С. Ю. Толдова             </div>`)[0];
+            popup_e4e35b98d08443c280ac163f8506a2ae.setContent(html_4cfe2b7fd860498998f708e27f2e11d5);
+        
+
+        circle_marker_5b591f6967d84d3a9601d18281bd9cc4.bindPopup(popup_e4e35b98d08443c280ac163f8506a2ae)
+        ;
+
+        
+    
+    
+            var circle_marker_93fc7809c61c44b79686d8ba6ee2f372 = L.circleMarker(
+                [67.469363, 78.701914],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_c2548debaa574c14ad291a0200cea80b = L.popup({"maxWidth": 300});
+
+        
+            var html_071ca04b83e54fc1bf13143ec662aa7e = $(`<div id="html_071ca04b83e54fc1bf13143ec662aa7e" style="width: 100.0%; height: 100.0%;">             <strong>Ямало-Ненецкий автономный округ</strong>             <i>Экспедиции:</i>                          2002, 2003 - Селькупский язык, рук-ль А.И. Кузнецова             </div>`)[0];
+            popup_c2548debaa574c14ad291a0200cea80b.setContent(html_071ca04b83e54fc1bf13143ec662aa7e);
+        
+
+        circle_marker_93fc7809c61c44b79686d8ba6ee2f372.bindPopup(popup_c2548debaa574c14ad291a0200cea80b)
+        ;
+
+        
+    
+    
+            var circle_marker_ef3a1dc3b19c46acacd04f48ad7a952f = L.circleMarker(
+                [56.961143, 48.784673],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_7884a76a41b742488d6551b9b73ea5a4 = L.popup({"maxWidth": 300});
+
+        
+            var html_69bad24fda5e45dbacf321fecace6b45 = $(`<div id="html_69bad24fda5e45dbacf321fecace6b45" style="width: 100.0%; height: 100.0%;">             <strong>Марий Эл, с. Старый Торъял</strong>             <i>Экспедиции:</i>                          2000, 2001 - Марийский язык, рук-ли А.Е. Кибрик и А.И. Кузнецова             </div>`)[0];
+            popup_7884a76a41b742488d6551b9b73ea5a4.setContent(html_69bad24fda5e45dbacf321fecace6b45);
+        
+
+        circle_marker_ef3a1dc3b19c46acacd04f48ad7a952f.bindPopup(popup_7884a76a41b742488d6551b9b73ea5a4)
+        ;
+
+        
+    
+    
+            var circle_marker_c0381252041b476096e520cfe4247932 = L.circleMarker(
+                [54.54173, 43.149838],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_63be782df0f5498c8882227c4386ae8e = L.popup({"maxWidth": 300});
+
+        
+            var html_cbb30d64bc244730a5025cbf41dc658f = $(`<div id="html_cbb30d64bc244730a5025cbf41dc658f" style="width: 100.0%; height: 100.0%;">             <strong>д. Лесные Сиялы Темниковского района Республики Мордовия</strong>             <i>Экспедиции:</i>                          2013 - Мокшанский язык, рук-ли А.И. Кузнецова, С.Ю. Толдова             </div>`)[0];
+            popup_63be782df0f5498c8882227c4386ae8e.setContent(html_cbb30d64bc244730a5025cbf41dc658f);
+        
+
+        circle_marker_c0381252041b476096e520cfe4247932.bindPopup(popup_63be782df0f5498c8882227c4386ae8e)
+        ;
+
+        
+    
+    
+            var circle_marker_988fa7b518ab458aae7ad1f69218c094 = L.circleMarker(
+                [54.557673, 43.163403],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_8bab4e53ae4349fd8db5489679ef1526 = L.popup({"maxWidth": 300});
+
+        
+            var html_182b14a371af4ccaa6d4834e393709c9 = $(`<div id="html_182b14a371af4ccaa6d4834e393709c9" style="width: 100.0%; height: 100.0%;">             <strong>с. Лесное Цибаево Темниковского района Республики Мордовия</strong>             <i>Экспедиции:</i>                          2014 - Мокшанский язык, рук-ли А.И. Кузнецова, С.Ю. Толдова             </div>`)[0];
+            popup_8bab4e53ae4349fd8db5489679ef1526.setContent(html_182b14a371af4ccaa6d4834e393709c9);
+        
+
+        circle_marker_988fa7b518ab458aae7ad1f69218c094.bindPopup(popup_8bab4e53ae4349fd8db5489679ef1526)
+        ;
+
+        
+    
+    
+            var circle_marker_c14ed4de218341d3815f6d1d3afaac10 = L.circleMarker(
+                [54.582971, 43.128243],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_8ba89634dcdc4adaa4944a60181c285c = L.popup({"maxWidth": 300});
+
+        
+            var html_68c18eeee124424f966896d447505867 = $(`<div id="html_68c18eeee124424f966896d447505867" style="width: 100.0%; height: 100.0%;">             <strong>с. Лесное Ардашево Темниковского района Республики Мордовия</strong>             <i>Экспедиции:</i>                          2015 - Мокшанский язык, рук-ли А.И. Кузнецова, С.Ю. Толдова             </div>`)[0];
+            popup_8ba89634dcdc4adaa4944a60181c285c.setContent(html_68c18eeee124424f966896d447505867);
+        
+
+        circle_marker_c14ed4de218341d3815f6d1d3afaac10.bindPopup(popup_8ba89634dcdc4adaa4944a60181c285c)
+        ;
+
+        
+    
+    
+            var circle_marker_aa8ae158723d4a3097153e99c199ce44 = L.circleMarker(
+                [54.768542, 42.51843],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_c5358a3f0b574a93afdd2bc3a2e8c496 = L.popup({"maxWidth": 300});
+
+        
+            var html_c7b74843ce0a4806b9d385a38d9f6d20 = $(`<div id="html_c7b74843ce0a4806b9d385a38d9f6d20" style="width: 100.0%; height: 100.0%;">             <strong>с. Шокша Теньгушевского района Республики Мордовия</strong>             <i>Экспедиции:</i>                          Эрзянский язык
+ 2006 - А. И. Кузнецова, Е. Ю. Калинина, С. Ю. Толдова
+ 2007 - А. И. Кузнецова, С. Ю. Толдова
+              </div>`)[0];
+            popup_c5358a3f0b574a93afdd2bc3a2e8c496.setContent(html_c7b74843ce0a4806b9d385a38d9f6d20);
+        
+
+        circle_marker_aa8ae158723d4a3097153e99c199ce44.bindPopup(popup_c5358a3f0b574a93afdd2bc3a2e8c496)
+        ;
+
+        
+    
+    
+            var circle_marker_90f039386f514554b8cb6e2d552440a3 = L.circleMarker(
+                [65.148606, 57.223977],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_4a8a77b06fec42179fd25df4158c6ca9 = L.popup({"maxWidth": 300});
+
+        
+            var html_d397106d4780490ca1d0cb3bcbe5e6a6 = $(`<div id="html_d397106d4780490ca1d0cb3bcbe5e6a6" style="width: 100.0%; height: 100.0%;">             <strong>Республика Коми</strong>             <i>Экспедиции:</i>                          2002, 2003 - Коми язык, рук-ли А.И. Кузнецова, Е. Ю. Калинина, С. Ю. Толдова             </div>`)[0];
+            popup_4a8a77b06fec42179fd25df4158c6ca9.setContent(html_d397106d4780490ca1d0cb3bcbe5e6a6);
+        
+
+        circle_marker_90f039386f514554b8cb6e2d552440a3.bindPopup(popup_4a8a77b06fec42179fd25df4158c6ca9)
+        ;
+
+        
+    
+    
+            var circle_marker_d90e3eb2bc164a4582873db7dc2720e2 = L.circleMarker(
+                [64.321685, 65.388486],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_f7e70c333ba34db586e68aeb46e8df6f = L.popup({"maxWidth": 300});
+
+        
+            var html_75a8972dfe834119ac0dfdafdf9639f9 = $(`<div id="html_75a8972dfe834119ac0dfdafdf9639f9" style="width: 100.0%; height: 100.0%;">             <strong>с. Теги Березовского района Ханты-Мансийского АО</strong>             <i>Экспедиции:</i>                          2010 - Хантыйский язык, рук-ли А.И. Кузнецова, С. Ю. Толдова             </div>`)[0];
+            popup_f7e70c333ba34db586e68aeb46e8df6f.setContent(html_75a8972dfe834119ac0dfdafdf9639f9);
+        
+
+        circle_marker_d90e3eb2bc164a4582873db7dc2720e2.bindPopup(popup_f7e70c333ba34db586e68aeb46e8df6f)
+        ;
+
+        
+    
+    
+            var circle_marker_bbbd8b172b104a5593117520f85bb871 = L.circleMarker(
+                [38.414249, 73.667207],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_ca27d4b1473e45d18a71be39425e0161 = L.popup({"maxWidth": 300});
+
+        
+            var html_48ef03b72a094e6daec099cca2f3bbc7 = $(`<div id="html_48ef03b72a094e6daec099cca2f3bbc7" style="width: 100.0%; height: 100.0%;">             <strong>Памир</strong>             <i>Экспедиции:</i>                          1976 - Ваханский и хуфский языки, рук-ли Б.Ю. Городецкий и Т.С. Зевахина             </div>`)[0];
+            popup_ca27d4b1473e45d18a71be39425e0161.setContent(html_48ef03b72a094e6daec099cca2f3bbc7);
+        
+
+        circle_marker_bbbd8b172b104a5593117520f85bb871.bindPopup(popup_ca27d4b1473e45d18a71be39425e0161)
+        ;
+
+        
+    
+    
+            var circle_marker_7bf44ea1d7ad4203ae6f210dc01ab003 = L.circleMarker(
+                [40.177628, 44.512555],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_7983add15c3d473393199afb3c77b938 = L.popup({"maxWidth": 300});
+
+        
+            var html_e540ff944f964bf395f230250fd81374 = $(`<div id="html_e540ff944f964bf395f230250fd81374" style="width: 100.0%; height: 100.0%;">             <strong>Армения</strong>             <i>Экспедиции:</i>                          1975 - Курдский язык, рук-ли Б.Ю. Городецкий и Т.С. Зевахина             </div>`)[0];
+            popup_7983add15c3d473393199afb3c77b938.setContent(html_e540ff944f964bf395f230250fd81374);
+        
+
+        circle_marker_7bf44ea1d7ad4203ae6f210dc01ab003.bindPopup(popup_7983add15c3d473393199afb3c77b938)
+        ;
+
+        
+    
+    
+            var circle_marker_4c1c652c28c94153a69350bdebae647d = L.circleMarker(
+                [42.830451, 75.301333],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_9e0fa31694074b6db6eaade7f02d875c = L.popup({"maxWidth": 300});
+
+        
+            var html_83f3ef2eaa8647ef8147aa29ef7237ca = $(`<div id="html_83f3ef2eaa8647ef8147aa29ef7237ca" style="width: 100.0%; height: 100.0%;">             <strong>Кыргызстан</strong>             <i>Экспедиции:</i>                          1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988 - Дунганский язык, рук-ли Б.Ю. Городецкий и Т.С. Зевахина             </div>`)[0];
+            popup_9e0fa31694074b6db6eaade7f02d875c.setContent(html_83f3ef2eaa8647ef8147aa29ef7237ca);
+        
+
+        circle_marker_4c1c652c28c94153a69350bdebae647d.bindPopup(popup_9e0fa31694074b6db6eaade7f02d875c)
+        ;
+
+        
+    
+    
+            var circle_marker_7e8b5fae81f74c908ea9221528ec69ab = L.circleMarker(
+                [67.979746, 52.956746],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_1faf1dbbc9674e2b84a7a2135fed76d8 = L.popup({"maxWidth": 300});
+
+        
+            var html_e9a436d9dc7a454aa70febfb5b7b7807 = $(`<div id="html_e9a436d9dc7a454aa70febfb5b7b7807" style="width: 100.0%; height: 100.0%;">             <strong>Алтай</strong>             <i>Экспедиции:</i>                          1989, 1990, 1991, 1992, 1993 - Алтайский язык, рук-ли Б.Ю. Городецкий и Т.С. Зевахина             </div>`)[0];
+            popup_1faf1dbbc9674e2b84a7a2135fed76d8.setContent(html_e9a436d9dc7a454aa70febfb5b7b7807);
+        
+
+        circle_marker_7e8b5fae81f74c908ea9221528ec69ab.bindPopup(popup_1faf1dbbc9674e2b84a7a2135fed76d8)
+        ;
+
+        
+    
+    
+            var circle_marker_41b560bf98404c94a1bebfbc98084a91 = L.circleMarker(
+                [46.843703, 74.97731],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_76836718452740448ab014b4e48eb451 = L.popup({"maxWidth": 300});
+
+        
+            var html_d628b5b0c7434e7e941d2d60cf628ba9 = $(`<div id="html_d628b5b0c7434e7e941d2d60cf628ba9" style="width: 100.0%; height: 100.0%;">             <strong>Казахстан</strong>             <i>Экспедиции:</i>                          1985 - Уйгурский язык, рук-ли Б.Ю. Городецкий и Т.С. Зевахина             </div>`)[0];
+            popup_76836718452740448ab014b4e48eb451.setContent(html_d628b5b0c7434e7e941d2d60cf628ba9);
+        
+
+        circle_marker_41b560bf98404c94a1bebfbc98084a91.bindPopup(popup_76836718452740448ab014b4e48eb451)
+        ;
+
+        
+    
+    
+            var circle_marker_c1f009fc5dce42f9be2ebd3bf09973fa = L.circleMarker(
+                [48.05063, 23.420454],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_178209da9bc94e01ba6e8b3eec65a358 = L.popup({"maxWidth": 300});
+
+        
+            var html_fcd277a55ec0499fbd6bbf0c441ed3f6 = $(`<div id="html_fcd277a55ec0499fbd6bbf0c441ed3f6" style="width: 100.0%; height: 100.0%;">             <strong>Закарпатье</strong>             <i>Экспедиции:</i>                          1970 - Венгерский язык, рук-ли Б.Ю. Городецкий и Т.С. Зевахина             </div>`)[0];
+            popup_178209da9bc94e01ba6e8b3eec65a358.setContent(html_fcd277a55ec0499fbd6bbf0c441ed3f6);
+        
+
+        circle_marker_c1f009fc5dce42f9be2ebd3bf09973fa.bindPopup(popup_178209da9bc94e01ba6e8b3eec65a358)
+        ;
+
+        
+    
+    
+            var circle_marker_7fba6cbe2cb547e4a43cb4a8bca9e2e6 = L.circleMarker(
+                [51.834809, 107.584547],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_a3c954bcfbee43eba20b8ea736c0a60c = L.popup({"maxWidth": 300});
+
+        
+            var html_f7550010b6e84b1baa369c6072ea8666 = $(`<div id="html_f7550010b6e84b1baa369c6072ea8666" style="width: 100.0%; height: 100.0%;">             <strong>Бурятия</strong>             <i>Экспедиции:</i>                          1974 - Бурятский язык, рук-ли Б.Ю. Городецкий и Т.С. Зевахина             </div>`)[0];
+            popup_a3c954bcfbee43eba20b8ea736c0a60c.setContent(html_f7550010b6e84b1baa369c6072ea8666);
+        
+
+        circle_marker_7fba6cbe2cb547e4a43cb4a8bca9e2e6.bindPopup(popup_a3c954bcfbee43eba20b8ea736c0a60c)
+        ;
+
+        
+    
+    
+            var circle_marker_9d5a90b6cee4428ca3d721c14d79cc20 = L.circleMarker(
+                [53.721152, 91.442396],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_bb159a224afa4cd1acefd805e088606b = L.popup({"maxWidth": 300});
+
+        
+            var html_d1ecd5934e764797988b2956ddc113e7 = $(`<div id="html_d1ecd5934e764797988b2956ddc113e7" style="width: 100.0%; height: 100.0%;">             <strong>Хакасия</strong>             <i>Экспедиции:</i>                          1989 - Хакасский язык, рук-ли Б.Ю. Городецкий и Т.С. Зевахина             </div>`)[0];
+            popup_bb159a224afa4cd1acefd805e088606b.setContent(html_d1ecd5934e764797988b2956ddc113e7);
+        
+
+        circle_marker_9d5a90b6cee4428ca3d721c14d79cc20.bindPopup(popup_bb159a224afa4cd1acefd805e088606b)
+        ;
+
+        
+    
+    
+            var circle_marker_1d6f5e55e0f94d588ade7b1db4075fe2 = L.circleMarker(
+                [60.258694, 163.499894],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_45ce5167db5d4dee8c60e703215c970d = L.popup({"maxWidth": 300});
+
+        
+            var html_363f231b4a444878ab765a2d8143992c = $(`<div id="html_363f231b4a444878ab765a2d8143992c" style="width: 100.0%; height: 100.0%;">             <strong>Камчатка</strong>             <i>Экспедиции:</i>                          1973 - Корякский язык, рук-ли Б.Ю. Городецкий и Т.С. Зевахина             </div>`)[0];
+            popup_45ce5167db5d4dee8c60e703215c970d.setContent(html_363f231b4a444878ab765a2d8143992c);
+        
+
+        circle_marker_1d6f5e55e0f94d588ade7b1db4075fe2.bindPopup(popup_45ce5167db5d4dee8c60e703215c970d)
+        ;
+
+        
+    
+    
+            var circle_marker_4061af7990704cc3a73e8db4b3bc0351 = L.circleMarker(
+                [68.970663, 33.074918],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_ff87e41f74744bd7877bb411102148c5 = L.popup({"maxWidth": 300});
+
+        
+            var html_e44ac6af01d24d78a7e27dfe6bf77ec7 = $(`<div id="html_e44ac6af01d24d78a7e27dfe6bf77ec7" style="width: 100.0%; height: 100.0%;">             <strong>Мурманская область</strong>             <i>Экспедиции:</i>                          1971 - Саамский язык, рук-ли Б.Ю. Городецкий и Т.С. Зевахина             </div>`)[0];
+            popup_ff87e41f74744bd7877bb411102148c5.setContent(html_e44ac6af01d24d78a7e27dfe6bf77ec7);
+        
+
+        circle_marker_4061af7990704cc3a73e8db4b3bc0351.bindPopup(popup_ff87e41f74744bd7877bb411102148c5)
+        ;
+
+        
+    
+    
+            var circle_marker_aebf99c2f46344929d7f248413c37e02 = L.circleMarker(
+                [56.9, 48.7],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_53d451b74f424dfeb830ce1270b278ad = L.popup({"maxWidth": 300});
+
+        
+            var html_4d106840b399427b8fd5f686c783c271 = $(`<div id="html_4d106840b399427b8fd5f686c783c271" style="width: 100.0%; height: 100.0%;">             <strong>Марий Эл</strong>             <i>Экспедиции:</i>                          2004 - Марийский язык, рук-ли Е.Ю. Калинина и С.Ю. Толдова             </div>`)[0];
+            popup_53d451b74f424dfeb830ce1270b278ad.setContent(html_4d106840b399427b8fd5f686c783c271);
+        
+
+        circle_marker_aebf99c2f46344929d7f248413c37e02.bindPopup(popup_53d451b74f424dfeb830ce1270b278ad)
+        ;
+
+        
+    
+    
+            var circle_marker_8a37b8d94b58484ba6146d3c73174833 = L.circleMarker(
+                [56.153051, 46.734233],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_c025decd321142d1b8fce0c455713194 = L.popup({"maxWidth": 300});
+
+        
+            var html_12b7b4343bd844bdbb6186cff567e334 = $(`<div id="html_12b7b4343bd844bdbb6186cff567e334" style="width: 100.0%; height: 100.0%;">             <strong>д. Кожланангер Горномарийского района Республики Марий Эл</strong>             <i>Экспедиции:</i>                          2017, 2018 – Горномарийский язык, рук-ль Е.В. Кашкин             </div>`)[0];
+            popup_c025decd321142d1b8fce0c455713194.setContent(html_12b7b4343bd844bdbb6186cff567e334);
+        
+
+        circle_marker_8a37b8d94b58484ba6146d3c73174833.bindPopup(popup_c025decd321142d1b8fce0c455713194)
+        ;
+
+        
+    
+    
+            var circle_marker_4d52cbbf2d31496aaa7f1726fa76961f = L.circleMarker(
+                [56.167729, 46.702064],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_9b6f9937a5fb4fcd82807cfce67a760a = L.popup({"maxWidth": 300});
+
+        
+            var html_826aedb489154a6d9d63593db51123ed = $(`<div id="html_826aedb489154a6d9d63593db51123ed" style="width: 100.0%; height: 100.0%;">             <strong>д. Тюманово Горномарийского района Республики Марий Эл</strong>             <i>Экспедиции:</i>                          2016, 2017, 2018 – Горномарийский язык, рук-ль Е.В. Кашкин             </div>`)[0];
+            popup_9b6f9937a5fb4fcd82807cfce67a760a.setContent(html_826aedb489154a6d9d63593db51123ed);
+        
+
+        circle_marker_4d52cbbf2d31496aaa7f1726fa76961f.bindPopup(popup_9b6f9937a5fb4fcd82807cfce67a760a)
+        ;
+
+        
+    
+    
+            var circle_marker_30254609c22f4a00a353ef28db842f55 = L.circleMarker(
+                [56.169794, 46.710877],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_ccf62ebb68ad4d48928f5b3f1d0e855e = L.popup({"maxWidth": 300});
+
+        
+            var html_f11e8550866c4280b895e7b8c1c58dc5 = $(`<div id="html_f11e8550866c4280b895e7b8c1c58dc5" style="width: 100.0%; height: 100.0%;">             <strong>д. Никишкино Горномарийского района Республики Марий Эл</strong>             <i>Экспедиции:</i>                          2017, 2018 – Горномарийский язык, рук-ль Е.В. Кашкин             </div>`)[0];
+            popup_ccf62ebb68ad4d48928f5b3f1d0e855e.setContent(html_f11e8550866c4280b895e7b8c1c58dc5);
+        
+
+        circle_marker_30254609c22f4a00a353ef28db842f55.bindPopup(popup_ccf62ebb68ad4d48928f5b3f1d0e855e)
+        ;
+
+        
+    
+    
+            var circle_marker_7c2c5c7de9494a9699d5f4b245637211 = L.circleMarker(
+                [56.171733, 46.760185],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_6ac5256e362f4418acd47b108a73fcf5 = L.popup({"maxWidth": 300});
+
+        
+            var html_156d2e6429594eb4b693f1b2d9b8952d = $(`<div id="html_156d2e6429594eb4b693f1b2d9b8952d" style="width: 100.0%; height: 100.0%;">             <strong>д. Кукшилиды Горномарийского района Республики Марий Эл</strong>             <i>Экспедиции:</i>                          2016 – Горномарийский язык, рук-ль Е.В. Кашкин             </div>`)[0];
+            popup_6ac5256e362f4418acd47b108a73fcf5.setContent(html_156d2e6429594eb4b693f1b2d9b8952d);
+        
+
+        circle_marker_7c2c5c7de9494a9699d5f4b245637211.bindPopup(popup_6ac5256e362f4418acd47b108a73fcf5)
+        ;
+
+        
+    
+    
+            var circle_marker_0bec201de7594e498cc8fa19097b05e5 = L.circleMarker(
+                [56.177797, 46.754714],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_6d3d385c871644e4a13f6f0d58c8efb8 = L.popup({"maxWidth": 300});
+
+        
+            var html_61d87948a0004df2af2a6f5c2b3636fc = $(`<div id="html_61d87948a0004df2af2a6f5c2b3636fc" style="width: 100.0%; height: 100.0%;">             <strong>д. Паулкино Горномарийского района Республики Марий Эл</strong>             <i>Экспедиции:</i>                          2016, 2017, 2018 – Горномарийский язык, рук-ль Е.В. Кашкин             </div>`)[0];
+            popup_6d3d385c871644e4a13f6f0d58c8efb8.setContent(html_61d87948a0004df2af2a6f5c2b3636fc);
+        
+
+        circle_marker_0bec201de7594e498cc8fa19097b05e5.bindPopup(popup_6d3d385c871644e4a13f6f0d58c8efb8)
+        ;
+
+        
+    
+    
+            var circle_marker_107a0b0d09de40318ced4e1b14ce9439 = L.circleMarker(
+                [56.17028, 56.03874],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_98178158653542078e6b4c04adc463c5 = L.popup({"maxWidth": 300});
+
+        
+            var html_6a36694de5934a108885ad4789b8628e = $(`<div id="html_6a36694de5934a108885ad4789b8628e" style="width: 100.0%; height: 100.0%;">             <strong>с. Старокальмиярово Татышлинского района Республики Башкортостан</strong>             <i>Экспедиции:</i>                          2021, 2022 – Удмуртский язык, рук-ль Е.В. Кашкин             </div>`)[0];
+            popup_98178158653542078e6b4c04adc463c5.setContent(html_6a36694de5934a108885ad4789b8628e);
+        
+
+        circle_marker_107a0b0d09de40318ced4e1b14ce9439.bindPopup(popup_98178158653542078e6b4c04adc463c5)
+        ;
+
+        
+    
+    
+            var circle_marker_30097b852dc04503adc7ce58543eca11 = L.circleMarker(
+                [56.215914, 56.094013],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_b8355ef0f03f464096601491b636e433 = L.popup({"maxWidth": 300});
+
+        
+            var html_cd80594f8ace4455aca1d4abd94d7c9a = $(`<div id="html_cd80594f8ace4455aca1d4abd94d7c9a" style="width: 100.0%; height: 100.0%;">             <strong>с. Верхнебалтачево Татышлинского района Республики Башкортостан</strong>             <i>Экспедиции:</i>                          2021, 2022 – Удмуртский язык, рук-ль Е.В. Кашкин             </div>`)[0];
+            popup_b8355ef0f03f464096601491b636e433.setContent(html_cd80594f8ace4455aca1d4abd94d7c9a);
+        
+
+        circle_marker_30097b852dc04503adc7ce58543eca11.bindPopup(popup_b8355ef0f03f464096601491b636e433)
+        ;
+
+        
+    
+    
+            var circle_marker_6f2f002c9bc34a658a4f415d3fc25fdf = L.circleMarker(
+                [56.254412, 55.872516],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_729c521e0764453bb900cb3a05653aeb = L.popup({"maxWidth": 300});
+
+        
+            var html_7b93c3fce22e46df8e2b3e014b26927d = $(`<div id="html_7b93c3fce22e46df8e2b3e014b26927d" style="width: 100.0%; height: 100.0%;">             <strong>с. Уразгильды Татышлинского района Республики Башкортостан</strong>             <i>Экспедиции:</i>                          2021, 2022 – Удмуртский язык, рук-ль Е.В. Кашкин             </div>`)[0];
+            popup_729c521e0764453bb900cb3a05653aeb.setContent(html_7b93c3fce22e46df8e2b3e014b26927d);
+        
+
+        circle_marker_6f2f002c9bc34a658a4f415d3fc25fdf.bindPopup(popup_729c521e0764453bb900cb3a05653aeb)
+        ;
+
+        
+    
+    
+            var circle_marker_fd4c431ee8bd4beb90ebe8fa9bb9166a = L.circleMarker(
+                [56.250547, 56.146978],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_05f0412cfe0f4cbc8aafa6009b8fe1fc = L.popup({"maxWidth": 300});
+
+        
+            var html_10e25478addf4fed8aa74994e72d41d5 = $(`<div id="html_10e25478addf4fed8aa74994e72d41d5" style="width: 100.0%; height: 100.0%;">             <strong>д. Ивановка Татышлинского района Республики Башкортостан</strong>             <i>Экспедиции:</i>                          2019, 2021, 2022 – Удмуртский язык, рук-ль Е.В. Кашкин             </div>`)[0];
+            popup_05f0412cfe0f4cbc8aafa6009b8fe1fc.setContent(html_10e25478addf4fed8aa74994e72d41d5);
+        
+
+        circle_marker_fd4c431ee8bd4beb90ebe8fa9bb9166a.bindPopup(popup_05f0412cfe0f4cbc8aafa6009b8fe1fc)
+        ;
+
+        
+    
+    
+            var circle_marker_bee3b39e33984f208fbc4a22edf4e6db = L.circleMarker(
+                [56.243064, 56.156617],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_421b9a7eb5bd484c9a152a7fa16722fe = L.popup({"maxWidth": 300});
+
+        
+            var html_dde3e53c7975400d9e8970ea261ba615 = $(`<div id="html_dde3e53c7975400d9e8970ea261ba615" style="width: 100.0%; height: 100.0%;">             <strong>д. Старый Кызыл-Яр Татышлинского района Республики Башкортостан</strong>             <i>Экспедиции:</i>                          2019, 2021, 2022 – Удмуртский язык, рук-ль Е.В. Кашкин             </div>`)[0];
+            popup_421b9a7eb5bd484c9a152a7fa16722fe.setContent(html_dde3e53c7975400d9e8970ea261ba615);
+        
+
+        circle_marker_bee3b39e33984f208fbc4a22edf4e6db.bindPopup(popup_421b9a7eb5bd484c9a152a7fa16722fe)
+        ;
+
+        
+    
+    
+            var circle_marker_873f5a4976a448afba57f7793862395c = L.circleMarker(
+                [56.224918, 55.934104],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_abc93e6a8168420aa704dc667810a77a = L.popup({"maxWidth": 300});
+
+        
+            var html_403d9cf9b4c04bc499513d50b735b253 = $(`<div id="html_403d9cf9b4c04bc499513d50b735b253" style="width: 100.0%; height: 100.0%;">             <strong>с. Новые Татышлы Татышлинского района Республики Башкортостан</strong>             <i>Экспедиции:</i>                          2019, 2021, 2022 – Удмуртский язык, рук-ль Е.В. Кашкин             </div>`)[0];
+            popup_abc93e6a8168420aa704dc667810a77a.setContent(html_403d9cf9b4c04bc499513d50b735b253);
+        
+
+        circle_marker_873f5a4976a448afba57f7793862395c.bindPopup(popup_abc93e6a8168420aa704dc667810a77a)
+        ;
+
+        
+    
+    
+            var circle_marker_7b1b8789b0a2495297f6b6662b6c0844 = L.circleMarker(
+                [56.210307, 56.116444],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_c8f1f292f51a4c7abfe1c2086045e033 = L.popup({"maxWidth": 300});
+
+        
+            var html_12eff08630b54238916f43dff93c3f7d = $(`<div id="html_12eff08630b54238916f43dff93c3f7d" style="width: 100.0%; height: 100.0%;">             <strong>с. Нижнебалтачево Татышлинского района Республики Башкортостан</strong>             <i>Экспедиции:</i>                          2019, 2021, 2022 – Удмуртский язык, рук-ль Е.В. Кашкин             </div>`)[0];
+            popup_c8f1f292f51a4c7abfe1c2086045e033.setContent(html_12eff08630b54238916f43dff93c3f7d);
+        
+
+        circle_marker_7b1b8789b0a2495297f6b6662b6c0844.bindPopup(popup_c8f1f292f51a4c7abfe1c2086045e033)
+        ;
+
+        
+    
+    
+            var circle_marker_ac5f11dca86a4fe3999f57824abd140a = L.circleMarker(
+                [56.675123, 48.072345],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_bdc2dde7807d4c7f99e5ed421fb644de = L.popup({"maxWidth": 300});
+
+        
+            var html_88f9062b1d884585b043e2d20cc26d36 = $(`<div id="html_88f9062b1d884585b043e2d20cc26d36" style="width: 100.0%; height: 100.0%;">             <strong>д. Апшак-Пеляк (Апшакбеляк) Горномарийского района Республики Марий Эл</strong>             <i>Экспедиции:</i>                          2016, 2017, 2018 – Горномарийский язык, рук-ль Е.В. Кашкин             </div>`)[0];
+            popup_bdc2dde7807d4c7f99e5ed421fb644de.setContent(html_88f9062b1d884585b043e2d20cc26d36);
+        
+
+        circle_marker_ac5f11dca86a4fe3999f57824abd140a.bindPopup(popup_bdc2dde7807d4c7f99e5ed421fb644de)
+        ;
+
+        
+    
+    
+            var circle_marker_f6107cd29e0c4d9ea36b0b5871d45be5 = L.circleMarker(
+                [56.692724, 48.039979],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_e6f0a44d4bfe4ee8aef25366a433797b = L.popup({"maxWidth": 300});
+
+        
+            var html_d6e1a5f95e4744aaaa4865fa9607f3e2 = $(`<div id="html_d6e1a5f95e4744aaaa4865fa9607f3e2" style="width: 100.0%; height: 100.0%;">             <strong>с. Кузнецово Горномарийского района Республики Марий Эл</strong>             <i>Экспедиции:</i>                          2016, 2017, 2018 – Горномарийский язык, рук-ль Е.В. Кашкин             </div>`)[0];
+            popup_e6f0a44d4bfe4ee8aef25366a433797b.setContent(html_d6e1a5f95e4744aaaa4865fa9607f3e2);
+        
+
+        circle_marker_f6107cd29e0c4d9ea36b0b5871d45be5.bindPopup(popup_e6f0a44d4bfe4ee8aef25366a433797b)
+        ;
+
+        
+    
+    
+            var circle_marker_03184ab9be3749169b1316a50df26119 = L.circleMarker(
+                [43.123163, 43.455948],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_ca0ec422dfd14ae2a86d2c652951d10f = L.popup({"maxWidth": 300});
+
+        
+            var html_61ffd1ad3de8489bb7528359a16e88c6 = $(`<div id="html_61ffd1ad3de8489bb7528359a16e88c6" style="width: 100.0%; height: 100.0%;">             <strong>С. Верхняя Балкария, Черекский район Кабардино-Балкарии</strong>             <i>Экспедиции:</i>                          Карачаево-балкарский язык
+ 2002 – рук-ли К. И. Казенин, С. Г. Татевосов, Е. А. Лютикова при участии А. Е. Кибрика, А. А. Кибрика, С. В. Кодзасова
+ 2004 – рук-ли Е. А. Лютикова, С. Г. Татевосов
+ 2013, 2019, 2021 – рук-ль С.Г. Татевосов
+              </div>`)[0];
+            popup_ca0ec422dfd14ae2a86d2c652951d10f.setContent(html_61ffd1ad3de8489bb7528359a16e88c6);
+        
+
+        circle_marker_03184ab9be3749169b1316a50df26119.bindPopup(popup_ca0ec422dfd14ae2a86d2c652951d10f)
+        ;
+
+        
+    
+    
+            var circle_marker_28f5a011081b4121bb26165ab392fa68 = L.circleMarker(
+                [54.153532, 110.162155],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_d1af59b8792f4760a26ec03f4360d054 = L.popup({"maxWidth": 300});
+
+        
+            var html_f865016cf928497082ef4cf86b260b53 = $(`<div id="html_f865016cf928497082ef4cf86b260b53" style="width: 100.0%; height: 100.0%;">             <strong>С. Багагхан, Республика Бурятия, Курумканский район</strong>             <i>Экспедиции:</i>                          2014, 2015, 2016, 2017 - Бурятский язык, рук-ль С.Г. Татевосов             </div>`)[0];
+            popup_d1af59b8792f4760a26ec03f4360d054.setContent(html_f865016cf928497082ef4cf86b260b53);
+        
+
+        circle_marker_28f5a011081b4121bb26165ab392fa68.bindPopup(popup_d1af59b8792f4760a26ec03f4360d054)
+        ;
+
+        
+    
+    
+            var circle_marker_e3411ad04f3b4a508597cc5ddce7f519 = L.circleMarker(
+                [42.833981, 44.435426],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_f0657f5e227741ea81c6d881a4538cb5 = L.popup({"maxWidth": 300});
+
+        
+            var html_c3b1528347b24822b202636effdb1ba9 = $(`<div id="html_c3b1528347b24822b202636effdb1ba9" style="width: 100.0%; height: 100.0%;">             <strong>С. Даргавс, Северная Осетия</strong>             <i>Экспедиции:</i>                          2007, 2008, 2009, 2010 - Осетинский язык, рук-ль С.Г. Татевосов             </div>`)[0];
+            popup_f0657f5e227741ea81c6d881a4538cb5.setContent(html_c3b1528347b24822b202636effdb1ba9);
+        
+
+        circle_marker_e3411ad04f3b4a508597cc5ddce7f519.bindPopup(popup_f0657f5e227741ea81c6d881a4538cb5)
+        ;
+
+        
+    
+    
+            var circle_marker_80e55e13842f427ca13709cea4efa5a0 = L.circleMarker(
+                [67.979746, 52.956746],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_dee64a53e0a94e698882794a8af50ee4 = L.popup({"maxWidth": 300});
+
+        
+            var html_0f78b13ff95542fc9f02a0edcd6b3025 = $(`<div id="html_0f78b13ff95542fc9f02a0edcd6b3025" style="width: 100.0%; height: 100.0%;">             <strong>С. Нельмин Нос, Ненецкий АО</strong>             <i>Экспедиции:</i>                          Ненецкий язык
+ 2003 – рук-ли Е. А. Лютикова, С. Г. Татевосов
+ 2004, 2005 – рук-ль С. Г. Татевосов
+              </div>`)[0];
+            popup_dee64a53e0a94e698882794a8af50ee4.setContent(html_0f78b13ff95542fc9f02a0edcd6b3025);
+        
+
+        circle_marker_80e55e13842f427ca13709cea4efa5a0.bindPopup(popup_dee64a53e0a94e698882794a8af50ee4)
+        ;
+
+        
+    
+    
+            var circle_marker_db703f4e78ad430d8373cc71b97f1854 = L.circleMarker(
+                [55.231966, 50.386396],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_f5bd79743ffa4209a1d046ae1b7bf297 = L.popup({"maxWidth": 300});
+
+        
+            var html_cdc93505f9834daf99565d94c5aa85b9 = $(`<div id="html_cdc93505f9834daf99565d94c5aa85b9" style="width: 100.0%; height: 100.0%;">             <strong>С. Кутлушкино (Яуширма), Татарстан</strong>             <i>Экспедиции:</i>                          2011 - Мишарский диалект татарского языка, рук-ль С.Г. Татевосов             </div>`)[0];
+            popup_f5bd79743ffa4209a1d046ae1b7bf297.setContent(html_cdc93505f9834daf99565d94c5aa85b9);
+        
+
+        circle_marker_db703f4e78ad430d8373cc71b97f1854.bindPopup(popup_f5bd79743ffa4209a1d046ae1b7bf297)
+        ;
+
+        
+    
+    
+            var circle_marker_1fb2d39c27834f46961cae800018ec43 = L.circleMarker(
+                [55.414905, 45.769954],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_eb1f39b8cb784005836bb46deccdac06 = L.popup({"maxWidth": 300});
+
+        
+            var html_71ea887c27694a85baa9dadb380c9cc7 = $(`<div id="html_71ea887c27694a85baa9dadb380c9cc7" style="width: 100.0%; height: 100.0%;">             <strong>С. Рыбушкино, Нижегородская область</strong>             <i>Экспедиции:</i>                          2012 - Мишарский диалект татарского языка, рук-ль С.Г. Татевосов             </div>`)[0];
+            popup_eb1f39b8cb784005836bb46deccdac06.setContent(html_71ea887c27694a85baa9dadb380c9cc7);
+        
+
+        circle_marker_1fb2d39c27834f46961cae800018ec43.bindPopup(popup_eb1f39b8cb784005836bb46deccdac06)
+        ;
+
+        
+    
+    
+            var circle_marker_6a6e3c95da444054b08948741ac9372e = L.circleMarker(
+                [51.909266, 87.102599],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_b34521f493dc476aa7b441fd7150750f = L.popup({"maxWidth": 300});
+
+        
+            var html_1fa10b07ca8440f48933ecd8f033f80f = $(`<div id="html_1fa10b07ca8440f48933ecd8f033f80f" style="width: 100.0%; height: 100.0%;">             <strong>С. Кебезень, Республика Алтай</strong>             <i>Экспедиции:</i>                          2006 - Тубаларский диалект алтайского языка, рук-ль С.Г. Татевосов             </div>`)[0];
+            popup_b34521f493dc476aa7b441fd7150750f.setContent(html_1fa10b07ca8440f48933ecd8f033f80f);
+        
+
+        circle_marker_6a6e3c95da444054b08948741ac9372e.bindPopup(popup_b34521f493dc476aa7b441fd7150750f)
+        ;
+
+        
+    
+    
+            var circle_marker_8687ef91542c42459115c16f58bbbbb9 = L.circleMarker(
+                [43.567793, 44.690359],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_f9899cfe1cf44594b0561d517a771f16);
+        
+    
+        var popup_70728067e0184ae9a2274b88986ab3a1 = L.popup({"maxWidth": 300});
+
+        
+            var html_844217d852904adfa5b21fc319a2ff8f = $(`<div id="html_844217d852904adfa5b21fc319a2ff8f" style="width: 100.0%; height: 100.0%;">             <strong>с. Предгорное, Моздокский район, Республика Северная Осетия - Алания</strong>             <i>Экспедиции:</i>                          2022 - Кумыкский язык, рук-ль С.Г. Татевосов             </div>`)[0];
+            popup_70728067e0184ae9a2274b88986ab3a1.setContent(html_844217d852904adfa5b21fc319a2ff8f);
+        
+
+        circle_marker_8687ef91542c42459115c16f58bbbbb9.bindPopup(popup_70728067e0184ae9a2274b88986ab3a1)
+        ;
+
+        
+    
+</script>
